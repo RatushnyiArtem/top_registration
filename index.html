@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login_wrap">
+        <div class="registr">
+            <input class="sign-in" type="radio" name="tab" id="tab-1" checked>
+            <label for="tab-1" class="tab">Sign In</label>
+            <input class="sign-up" type="radio" name="tab" id="tab-2">
+            <label for="tab-2" class="tab">Sign up</label>
+            <div class="login-form">
+             <div class="sign-in-str">
+             <form action="">
+                 <div class="group">
+                 <label for="user" class="lab">Username</label>
+                 <input type="text" id="user" class="in">
+                 </div>
+                 <div class="group">
+                 <label for="pass" class="lab">Password</label>
+                 <input type="password" id="pass" class="in" >
+                 </div>
+                 <div class="group">
+                  <input type="checkbox" class="check" id="check" checked>
+                  <label class="keep" for="check">
+                      <span class="icon"></span>
+                      Keep me Signed in
+                  </label>
+                 </div>
+                 <div class="group">
+                 <button class="sign1" type="submit">Sign In</button>
+                 </div>
+                 <div class="line"></div>
+                 <div class="forgot">
+                     <a href="">Forgot password?</a>
+                 </div>
+            </form>
+            </div>
+            <div class="sign-up-str">
+                <form id="contact-form">
+                    <input type="hidden" name="contact_number">
+                    <div class="group">
+              <label for="user" class="lab">Username</label>
+              <input name="user_name" type="text"  id="pass" class="in">
+              </div>
+              <div class="group">
+               <label for="email" class="lab">Email Adress</label>
+               <input name="user_email" type="email"  id="email" class="in">
+              </div>
+              <div class="group">
+               <label for="pass" class="lab">Password</label>
+               <input name="password" type="password"  id="pass" class="in">
+              </div>
+              <div class="group">
+               <label for="pass" class="lab">Repeat Password</label>
+               <input type="password"  id="pass" class="in">
+              </div>
+              <div class="group">
+              <button type="submit" class="sign1">Sign Up</button>
+              </div>
+              <div class="line"></div>
+              <div class="oth">
+                  <a href="">About me</a>
+              </div>
+                </form>
+              
+            </div>
+        </div>
+        </div>
+        
+           
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
